@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a sintaxe correta para declarar uma variável em JavaScript?",
-      respostas: [
-        "var x = 10;",
-        "let x = 10;",
-        "const x = 10;",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador utilizado para atribuição de valor em JavaScript?",
-      respostas: [
-        "=",
-        "==",
-        ":=",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você escreve um comentário de uma linha em JavaScript?",
-      respostas: [
-        "// Este é um comentário",
-        "<!-- Este é um comentário -->",
-        "/* Este é um comentário */",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o método usado para imprimir uma mensagem no console em JavaScript?",
-      respostas: [
-        "log()",
-        "print()",
-        "console.log()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Comparação de valores",
-        "Comparação de tipos de dados",
-        "Concatenação de strings",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a estrutura de controle usada para tomar decisões em JavaScript?",
-      respostas: [
-        "for loop",
-        "if-else",
-        "switch case",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'parseInt()' faz em JavaScript?",
-      respostas: [
-        "Converte uma string para um número inteiro",
-        "Arredonda um número para o inteiro mais próximo",
-        "Remove os espaços em branco de uma string",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a forma correta de escrever um loop 'for' em JavaScript?",
-      respostas: [
-        "for (let i = 0; i < 5; i++) {}",
-        "for (i = 0; i < 5; i++) {}",
-        "for (i = 0; i <= 5; i++) {}",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você acessa o último elemento de um array chamado 'arr' em JavaScript?",
-      respostas: [
-        "arr[arr.length - 1]",
-        "arr.last()",
-        "arr.end()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '10 + '5' em JavaScript?",
-      respostas: [
-        "105",
-        "15",
-        "Erro",
-      ],
-      correta: 0
-    }
-  ];
+  {
+    pergunta: "Quem foi o artilheiro do Campeonato Brasileiro de 1994?",
+    respostas: [
+      "Romário",
+      "Túlio Maravilha",
+      "Edmundo",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual clube foi campeão da Copa do Brasil de 1992?",
+    respostas: [
+      "Cruzeiro",
+      "Flamengo",
+      "Internacional",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o técnico da Seleção Brasileira na conquista da Copa do Mundo de 1994?",
+    respostas: [
+      "Carlos Alberto Parreira",
+      "Luiz Felipe Scolari",
+      "Vanderlei Luxemburgo",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual jogador brasileiro foi eleito o melhor do mundo em 1997?",
+    respostas: [
+      "Ronaldo",
+      "Romário",
+      "Rivaldo",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Em que ano o São Paulo conquistou a sua primeira Copa Libertadores?",
+    respostas: [
+      "1992",
+      "1993",
+      "1994",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual clube venceu a primeira edição da Copa do Brasil em 1989?",
+    respostas: [
+      "Grêmio",
+      "Atlético Mineiro",
+      "Vasco da Gama",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem foi o campeão brasileiro de 1996?",
+    respostas: [
+      "Grêmio",
+      "Cruzeiro",
+      "Palmeiras",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual jogador marcou o gol do título da Copa do Mundo de 1994 para o Brasil?",
+    respostas: [
+      "Bebeto",
+      "Romário",
+      "Ronaldo",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual clube conquistou a Copa Libertadores de 1998?",
+    respostas: [
+      "River Plate",
+      "Vasco da Gama",
+      "Palmeiras",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual era o nome do estádio onde o Brasil conquistou a Copa do Mundo de 1994?",
+    respostas: [
+      "Rose Bowl",
+      "Giants Stadium",
+      "Estádio do Morumbi",
+    ],
+    correta: 0
+  }
+];
+
   
   //Pegar o Template
   const quiz = document.querySelector('#quiz')
